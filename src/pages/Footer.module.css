@@ -1,0 +1,96 @@
+.contact {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 42px 24px 80px;
+}
+
+.sectionTitle {
+  color: var(--Black, #2d2d2d);
+  font: 600 32px/131% Epilogue, -apple-system, Roboto, Helvetica, sans-serif;
+  margin-bottom: 24px;
+}
+
+.contactContent {
+  display: flex;
+  gap: 20px;
+}
+
+.contactInfo {
+  flex: 1;
+}
+
+.contactDescription {
+  color: #2d2d2d;
+  font: 400 17px/27px Epilogue, -apple-system, Roboto, Helvetica, sans-serif;
+  margin-bottom: 42px;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 20px;
+}
+
+.socialIcon {
+  width: 36px;
+  height: 36px;
+}
+
+.contactForm {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.formInput {
+  background-color: #f3f3f3;
+  font: 400 17px/159% Epilogue, -apple-system, Roboto, Helvetica, sans-serif;
+  color: #2d2d2d;
+  padding: 16px 24px;
+  border: none;
+  width: 100%;
+}
+
+.submitButton {
+  background-color: #2d2d2d;
+  color: var(--White, #fff);
+  font: 600 20px/150% Epilogue, -apple-system, Roboto, Helvetica, sans-serif;
+  text-align: center;
+  padding: 24px 60px;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 991px) {
+  .contact {
+    padding: 42px 20px;
+  }
+
+  .contactContent {
+    flex-direction: column;
+  }
+
+  .socialIcons {
+    flex-wrap: wrap;
+  }
+
+  .submitButton {
+    width: 100%;
+    padding: 24px 20px;
+  }
+}
