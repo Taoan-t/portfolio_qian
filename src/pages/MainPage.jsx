@@ -1,6 +1,6 @@
 import { Link } from "react-scroll";
 import styles from "./MainPage.module.css";
-// import Header from "./Header";
+import visualDesigner from "../assets/images/mainPage.jpg";
 
 const MainPage = () => {
   return (
@@ -27,7 +27,7 @@ const MainPage = () => {
         </div>
         <div className={styles.imageWrapper}>
           <img
-            src="./public/mainPage.jpg"
+            src={visualDesigner}
             alt="Visual Designer"
             className={styles.mainPageImage}
           />

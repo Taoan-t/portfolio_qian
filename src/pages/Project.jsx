@@ -1,24 +1,28 @@
 import PropTypes from "prop-types";
 import styles from "./Project.module.css";
+// import metMuseum from "../assets/images/MetMuseum.jpg";
+import movieMania from "../assets/images/MovieMania.jpg";
+import hackathonProject from "../assets/images/HackathonProject.jpg";
+import hrSystem from "../assets/images/HRSystem.jpg";
 
 const projectItems = [
   {
-    image: "./public/MetMuseum.png",
+    image: "https://imgur.com/DiKJbWC",
     title: "Met Museum Artwork",
     categories: "UI, Art direction",
   },
   {
-    image: "./public/MovieMania.png",
+    image: { movieMania },
     title: "Movie Mania",
     categories: "UI, Art direction",
   },
   {
-    image: "./public/HackathonProject.png",
+    image: { hackathonProject },
     title: "Restaurant Food Inventory Application",
     categories: "UI, Art direction",
   },
   {
-    image: "./public/HRSystem.png",
+    image: { hrSystem },
     title: "Hotel Reservation System",
     categories: "UI, Art direction",
   },
