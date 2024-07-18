@@ -1,4 +1,4 @@
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import styles from "./MainPage.module.css";
 import visualDesigner from "../assets/images/mainPage.jpg";
 
@@ -13,16 +13,10 @@ const MainPage = () => {
             Web Developer
           </h1>
           <p className={styles.description}>
-            Hello, ny name is Qian Tang. I am a web developer.
+            Hello, my name is Qian Tang. I am a web developer.
           </p>
-          {/* <button className="contactButton">Contact</button> */}
-          <Link
-            to="contact"
-            smooth={true}
-            duration={500}
-            className={styles.contactButton}
-          >
-            Contact
+          <Link to="/contact">
+            <button className={styles.contactButton}>Contact</button>
           </Link>
         </div>
         <div className={styles.imageWrapper}>

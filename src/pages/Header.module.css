@@ -4,18 +4,17 @@
   justify-content: space-between;
   align-items: center;
   padding: 24px 42px;
-  width: 100%;
 }
 
 .logo {
-  font: 600 20px/150% Epilogue, -apple-system, Roboto, Helvetica, sans-serif;
+  font: 600 24px/150% Epilogue, -apple-system, Roboto, Helvetica, sans-serif;
   color: var(--Black, #2d2d2d);
 }
 
 .navigation {
   display: flex;
-  gap: 20px;
-  font-size: 17px;
+  gap: 40px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 159%;
 }
